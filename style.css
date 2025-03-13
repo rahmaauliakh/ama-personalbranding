@@ -168,3 +168,35 @@ ul li a:hover {
 .title span {
     font-weight: 600;
 }
+.description {
+    line-height: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.action_btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.action_btns button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.hire_me {
+    background-color: var(--primary-color);
+    color: #faf5ff;
+}
+
+.hire_me:hover {
+    background-color: var(--primary-color-dark);
+}
