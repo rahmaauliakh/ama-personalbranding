@@ -411,3 +411,32 @@ section.portofolio {
         height: 200px;
     }
 }
+
+.contact {
+    background: var(--extra-light);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    padding: 100px 10%;
+}
+
+.contact-text h2 {
+    font-size: 2.5rem;
+    color: var(--text-dark);
+}
+
+.contact {
+    background: var(--extra-light);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    padding: 100px 10%;
+}
+
+.contact-text h2 {
+    font-size: 2.5rem;
+    color: var(--text-dark);
+}
+
