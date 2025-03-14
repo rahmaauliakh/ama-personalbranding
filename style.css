@@ -393,3 +393,21 @@ section.portofolio {
 .layer a:hover {
     background: #5751d6;
 }
+
+@media (max-width: 768px) {
+    .main-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .layer h2 {
+        font-size: 1.75rem;
+    }
+
+    .layer p {
+        font-size: 0.9rem;
+    }
+
+    .row img {
+        height: 200px;
+    }
+}
