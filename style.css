@@ -326,6 +326,16 @@ ul li a:hover {
     text-align: center;
 }
 
+.main-text h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-text h1 span {
+    color: #6C63FF;
+}
+
 .row img {
     width: 100%;
     border-radius: 8px;
@@ -337,16 +347,6 @@ section.portofolio {
     padding: 4rem 2rem;
     max-width: 1200px;
     width: 100%;
-}
-
-.main-text h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.main-text h1 span {
-    color: #6C63FF;
 }
 
 .portofolio-content {
@@ -361,4 +361,35 @@ section.portofolio {
     overflow: hidden;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+}
+
+.layer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.layer h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.layer p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.layer a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #6C63FF;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.layer a:hover {
+    background: #5751d6;
 }
