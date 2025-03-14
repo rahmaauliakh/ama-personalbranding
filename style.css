@@ -317,3 +317,34 @@ ul li a:hover {
         margin: 0 auto;
     }
 }
+
+.main-text {
+    font-size: 20px;
+    gap: 1rem;
+    margin-top: 20%;
+    color: #DE8F5F;
+    text-align: center;
+}
+
+.row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+section.portofolio {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.main-text h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-text h1 span {
+    color: #6C63FF;
+}
