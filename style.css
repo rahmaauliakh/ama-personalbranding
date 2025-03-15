@@ -495,17 +495,6 @@ section.portofolio {
     background: #faf5ff;
 }
 
-.last-text p {
-    color: var(--extra-light);
-}
-
-.top i {
-    padding: 18px;
-    border-radius: 8px;
-    font-size: small;
-    color: #faf5ff;
-    background: #FFB26F;
-}
 
 @media (max-width: 920px) {
     .about {
