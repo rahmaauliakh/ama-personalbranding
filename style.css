@@ -497,35 +497,3 @@ section.portofolio {
 
 
 
-@media (max-width: 920px) {
-    .about {
-        grid-template-columns: 1fr;
-    }
-
-    .about-img img {
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-    }
-
-    .contact {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer {
-    background-color: var(--primary-color);
-    color: var(--extra-light);
-    text-align: center;
-    padding: 10px;
-    width: 150%;
-}
