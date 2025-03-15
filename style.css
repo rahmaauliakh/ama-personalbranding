@@ -23,6 +23,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: var(--extra-light);
 }
+
 nav {
     width: 100%;
     position: fixed;
@@ -88,7 +89,6 @@ ul li a:hover {
     border-bottom-color: var(--secondary-color);
     color: var(--secondary-color);
 }
-
 
 .skills {
     padding: 80px 0;
@@ -168,6 +168,7 @@ ul li a:hover {
 .title span {
     font-weight: 600;
 }
+
 .description {
     line-height: 1.5rem;
     color: var(--text-light);
@@ -200,26 +201,6 @@ ul li a:hover {
 .hire_me:hover {
     background-color: var(--primary-color-dark);
 }
-.about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-    padding: 100px 10%;
-    background-color: var(--extra-light);
-}
-
-.about-img img {
-    width: min(25rem, 90%);
-    border-radius: 100%;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.about-text h2 {
-    font-size: 2.5rem;
-    color: var(--text-dark);
-}
-
 
 .image {
     display: grid;
@@ -318,22 +299,13 @@ ul li a:hover {
     }
 }
 
+
 .main-text {
     font-size: 20px;
     gap: 1rem;
     margin-top: 20%;
     color: #DE8F5F;
     text-align: center;
-}
-
-.main-text h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.main-text h1 span {
-    color: #6C63FF;
 }
 
 .row img {
@@ -349,6 +321,18 @@ section.portofolio {
     width: 100%;
 }
 
+/* Header Styling */
+.main-text h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-text h1 span {
+    color: #6C63FF;
+}
+
+/* Portfolio Content */
 .portofolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -363,6 +347,67 @@ section.portofolio {
     transition: transform 0.3s ease-in-out;
 }
 
+.row:hover {
+    transform: translateY(-10px);
+}
+
+.row img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.layer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.layer h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.layer p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.layer a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #6C63FF;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.layer a:hover {
+    background: #5751d6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .layer h2 {
+        font-size: 1.75rem;
+    }
+
+    .layer p {
+        font-size: 0.9rem;
+    }
+
+    .row img {
+        height: 200px;
+    }
+}
+
 .contact {
     background: var(--extra-light);
     display: grid;
@@ -377,18 +422,26 @@ section.portofolio {
     color: var(--text-dark);
 }
 
-.contact {
-    background: var(--extra-light);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-    padding: 100px 10%;
+.contact-text h2 span {
+    color: var(--primary-color);
 }
 
-.contact-text h2 {
-    font-size: 2.5rem;
-    color: var(--text-dark);
+.contact-text h4 {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.contact-text p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .contact-form input,
@@ -486,6 +539,7 @@ section.portofolio {
     }
 
 }
+
 main {
     max-width: 1200px;
     margin: 20px auto;
