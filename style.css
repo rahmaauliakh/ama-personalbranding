@@ -499,6 +499,14 @@ section.portofolio {
     color: var(--extra-light);
 }
 
+.top i {
+    padding: 18px;
+    border-radius: 8px;
+    font-size: small;
+    color: #faf5ff;
+    background: #FFB26F;
+}
+
 @media (max-width: 920px) {
     .about {
         grid-template-columns: 1fr;
@@ -512,6 +520,22 @@ section.portofolio {
 
     .contact {
         grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .portofolio-content .contact {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contact-text p {
+        font-size: 1rem;
+    }
+
+    .row img {
+        width: 100%;
     }
 
 }
