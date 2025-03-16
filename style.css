@@ -556,12 +556,24 @@ footer {
     width: 150%;
 }
 
-skills {
-    color: #faf5ff;
-    background: #FFB26F;
-}
 
-portofolio {
-    color: #faf5ff;
-    background: #FFB26F;
+.skills, .portofolio {
+    background-color: #faf5ff; /* Warna latar belakang yang serasi */
+    padding: 50px 0;
+}
+.skills h1, .portofolio h1 {
+    color: #333; /* Warna teks yang sesuai */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-card, .portofolio .row {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.skill-card:hover, .portofolio .row:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
